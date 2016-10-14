@@ -6,5 +6,5 @@ Splunk:
   description: "Test"
   questions:
    - variable:"LANG"
-     label:"ロケールと文字コードを設定します"
-     description:"ja_JP.utf8 または、en_US.utf8 などを入力します"
+     label:"Pleae Input Locale"
+     description:"ja_JP.utf8 or en_US.utf8"
