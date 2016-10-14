@@ -4,7 +4,4 @@ Splunk:
   name: "Splunk"
   version: "6.5"
   description: "Test"
-  questions:
-   - variable:"LANG"
-     label:"Pleae Input Locale"
-     description:"ja_JP.utf8 or en_US.utf8"
+
