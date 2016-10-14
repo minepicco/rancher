@@ -1,8 +1,7 @@
-name: Splunk # Name of the Catalog Entry
-description: MNC private catalog |
-  # Description of the Catalog Entry
-version: 6.5 # Version of the Catalog to be used
-category: Log Analysis # Category to be used for searching catalog entries
-maintainer: # The maintainer of the catalog entry
-license: None # The license
-projectURL: https://hub.docker.com/r/splunk/splunk/ # A URL related to the catalog entry
+name: Splunk
+description: MNC private catalog
+version: 6.5
+category: Log Analytics
+maintainer: None
+license: None 
+projectURL: https://hub.docker.com/r/splunk/splunk/
