@@ -1,2 +1,6 @@
 Splunk:
   scale: 1
+.catalog:
+  name: "Splunk"
+  version: "6.5"
+  description: "Test"
