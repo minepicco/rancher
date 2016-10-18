@@ -2,8 +2,10 @@ MySQLServer:
   ports:
   - 3306:3306/tcp
   environment:
-    MYSQL_ROOT_PASSWORD: Mimosa2008
-    MYSQL_DATABASE: defaultdb
+        MYSQL_ROOT_PASSWORD: ${root_password}
+        MYSQL_DATABASE: ${db_name}
+        MYSQL_USER: ${db_userame}
+        MYSQL_PASSWORD: ${db_password}
   labels:
     io.rancher.container.pull_image: always
   tty: true
