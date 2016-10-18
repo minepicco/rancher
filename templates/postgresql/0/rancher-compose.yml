@@ -1,0 +1,25 @@
+.catalog:
+  name: "Splunk"
+  version: "6.5"
+  description: "Test"
+  questions:
+    - variable: postgres_port
+      description: "PostgreSQL access port"
+      label: "UI Access port"
+      required: true
+      default: "5432"
+      type: "int"
+    - variable: postgres_user
+      description: "Username to access SQL DB (Optional)"
+      label: "Username(Optional)"
+      required: false
+      default: "user"
+      type: "string"
+    - variable: postgres_password
+      description: "Postgres DB access password (If username is not defined, this will be the password for user postgres)"
+      label: "Password"
+      required: true
+      default: "Password"
+      type: "string"
+Postgres:
+  scale: 1
