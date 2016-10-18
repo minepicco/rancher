@@ -1,6 +1,5 @@
 MySQLServer:
   ports:
-  ports:
     - ${public_port}:3306
   environment:
         MYSQL_ROOT_PASSWORD: ${root_password}
@@ -10,5 +9,5 @@ MySQLServer:
   labels:
     io.rancher.container.pull_image: always
   tty: true
-  image: mysql
+  image: mysql:5.7
   stdin_open: true
