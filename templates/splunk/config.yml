@@ -1,7 +1,7 @@
 name: "Splunk"
-description: "MNC_private_catalog"
+description: "MNC private catalog"
 version: "6.5"
-category: "Log_Analytics"
+category: "Log Analytics"
 maintainer: 
 license:  
 projectURL: "https://hub.docker.com/r/splunk/splunk/"
