@@ -9,7 +9,6 @@ Splunk:
   environment:
     SPLUNK_BACKUP_DEFAULT_ETC: /var/opt/splunk
     SPLUNK_START_ARGS: --accept-license
-    DOCKER_VERSION: 1.9.0
     SPLUNK_BACKUP_APP: /var/opt/splunk/etc/apps
     SPLUNK_GROUP: splunk
     SPLUNK_HOME: /opt/splunk
