@@ -1,7 +1,7 @@
 .catalog:
-  name: "Splunk"
-  version: "6.5"
-  description: "Test"
+  name: "PostgreSQL"
+  version: "latest"
+  description: "PostgreSQL server"
   questions:
     - variable: postgres_port
       description: "PostgreSQL access port"
