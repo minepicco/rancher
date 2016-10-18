@@ -1,7 +1,7 @@
-name: "MySQL Server"
+name: "MySQLServer"
 description: "MySQL Sevver. \n(Default root password=Mimosa2008)"
 version: "5.7"
-category: "SQL DB"
+category: "SQLDBServer"
 maintainer: 
 license: 
 projectURL: "https://hub.docker.com/_/mysql/"
