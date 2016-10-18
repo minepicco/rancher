@@ -1,6 +1,6 @@
 Splunk:
   ports:
-  - 8000:8000/tcp
+  - ${public_port}:8000/tcp
   - 1514:1514/tcp
   - 8088:8088/tcp
   - 8089:8089/tcp
