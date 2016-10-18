@@ -9,3 +9,5 @@
       required: true
       default: "8000"
       type: "int"
+Splunk:
+  scale: 1
