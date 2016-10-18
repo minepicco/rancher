@@ -29,3 +29,9 @@ MySQLServer:
           required: true
           default: "password"
           type: "string"
+        - variable: public_port
+          description: "Public port to access the MySQL Server"
+          label: "MySQL Port"
+          required: true
+          default: "3306"
+          type: "int"
