@@ -1,2 +1,31 @@
 MySQLServer:
   scale: 1
+.catalog:
+    name: "MySQLServer"
+    version: "5.7"
+    description: "MySQL Server."
+    questions:
+        - variable: root_password
+          description: "MySQL root password - keep this password complex and secure"
+          label: "MySQL Root Password"
+          required: true
+          default: "password"
+          type: "string"
+        - variable: db_name
+          description: "MySQL Database Name - to use in the Concrete5 setup"
+          label: "MySQL Database Name"
+          required: true
+          default: "CMS_DB"
+          type: "string"
+        - variable: db_username
+          description: "MySQL Username - to use in the Concrete5 setup"
+          label: "MySQL Username"
+          required: true
+          default: "CMS_USER"
+          type: "string"
+        - variable: db_password
+          description: "MySQL password for the above user - to use in the Concrete5 setup"
+          label: "MySQL Password"
+          required: true
+          default: "password"
+          type: "string"
