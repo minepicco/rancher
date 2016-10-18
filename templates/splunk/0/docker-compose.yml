@@ -1,11 +1,11 @@
 Splunk:
   ports:
-  - 8000:8000/tcp
-  - 1514:1514/tcp
-  - 8088:8088/tcp
-  - 8089:8089/tcp
-  - 8191:8191/tcp
-  - 9997:9997/tcp
+  - ${public_port}:8000/tcp
+  - ${network_input}:1514/tcp
+  - ${http_event_controller}:8088/tcp
+  - ${splunk_services}:8089/tcp
+  - ${application_key_value_store}:8191/tcp
+  - ${splunk_receiving_port}:9997/tcp
   environment:
     SPLUNK_BACKUP_DEFAULT_ETC: /var/opt/splunk
     SPLUNK_START_ARGS: --accept-license
