@@ -29,7 +29,7 @@ Splunk:
   - /sbin/entrypoint.sh
   command:
   - start-service
-  image: splunk/splunk:6.5.0
+  image: splunk/splunk
   volumes:
   - /opt/splunk/etc
   - /opt/splunk/var
