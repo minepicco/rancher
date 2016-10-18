@@ -1,0 +1,11 @@
+MySQLServer:
+  ports:
+  - 3306:3306/tcp
+  environment:
+    MYSQL_ROOT_PASSWORD: Mimosa2008
+    MYSQL_DATABASE: defaultdb
+  labels:
+    io.rancher.container.pull_image: always
+  tty: true
+  image: mysql
+  stdin_open: true
