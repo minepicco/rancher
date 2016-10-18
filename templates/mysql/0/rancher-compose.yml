@@ -12,21 +12,21 @@ MySQLServer:
           default: "password"
           type: "string"
         - variable: db_name
-          description: "MySQL Database Name - to use in the Concrete5 setup"
+          description: "MySQL Database Name"
           label: "MySQL Database Name"
           required: true
           default: "CMS_DB"
           type: "string"
         - variable: db_username
-          description: "MySQL Username - to use in the Concrete5 setup"
+          description: "MySQL Username"
           label: "MySQL Username"
-          required: true
+          required: false
           default: "CMS_USER"
           type: "string"
         - variable: db_password
-          description: "MySQL password for the above user - to use in the Concrete5 setup"
+          description: "MySQL password for the above user"
           label: "MySQL Password"
-          required: true
+          required: false
           default: "password"
           type: "string"
         - variable: public_port
