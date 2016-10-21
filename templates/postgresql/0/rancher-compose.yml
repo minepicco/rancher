@@ -5,7 +5,7 @@
   questions:
     - variable: postgres_port
       description: "PostgreSQL access port"
-      label: "UI Access port"
+      label: "Access port"
       required: true
       default: "5432"
       type: "int"
