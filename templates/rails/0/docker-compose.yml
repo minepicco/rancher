@@ -1,0 +1,4 @@
+rails:
+    image: rails:latest
+    ports:
+- ${http_port}:3000
