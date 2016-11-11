@@ -1,0 +1,55 @@
+Graphite:
+  scale: 1
+.catalog:
+    name: "Graphite"
+    version: "0.9.15"
+    description: "Graphite Server."
+    questions:
+        - variable: ui_port
+          description: "Public port to access Graphite Web UI"
+          label: "nginx Port"
+          required: true
+          default: "80"
+          type: "int"
+        - variable: plainreceiver
+          description: "TCP carbon receiver port for plain text data"
+          label: "TCP carbon receiver"
+          required: true
+          default: "2003"
+          type: "int"
+        - variable: udpplainreceiver
+          description: "UDP carbon receiver port for plain text data"
+          label: "UDP carbon receiver"
+          required: true
+          default: "2003"
+          type: "int"
+        - variable: picklereceiver
+          description: "Carbon receiver port for pickle text data (TCP)"
+          label: "Pickle carbon receiver"
+          required: true
+          default: "2004"
+          type: "int"
+        - variable: plainaggregator
+          description: "Carbon aggregator port for plain text data (TCP)"
+          label: "Plain carbon aggregator"
+          required: true
+          default: "2023"
+          type: "int"
+        - variable: pickleaggregator
+          description: "Carbon aggregator port for pickle text data (TCP)"
+          label: "Pickle carbon aggregator"
+          required: true
+          default: "2024"
+          type: "int"
+        - variable: statsd
+          description: "statsd port (UDP)"
+          label: "statsd"
+          required: true
+          default: "8125"
+          type: "int"
+        - variable: statsdadmin
+          description: "statsd admin port (TCP)"
+          label: "statsd admin"
+          required: true
+          default: "8126"
+          type: "int"
