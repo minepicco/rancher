@@ -1,6 +1,6 @@
 name: "Graphite"
 description: "Graphite"
-version: "0.9.14"
+version: "latest"
 category: "Metrics"
 maintainer: 
 license: 
