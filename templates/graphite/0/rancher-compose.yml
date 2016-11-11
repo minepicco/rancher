@@ -29,16 +29,4 @@ Graphite:
           required: true
           default: "2004"
           type: "int"
-        - variable: plainaggregator
-          description: "Carbon aggregator port for plain text data (TCP)"
-          label: "Plain carbon aggregator"
-          required: true
-          default: "2023"
-          type: "int"
-        - variable: pickleaggregator
-          description: "Carbon aggregator port for pickle text data (TCP)"
-          label: "Pickle carbon aggregator"
-          required: true
-          default: "2024"
-          type: "int"
 
