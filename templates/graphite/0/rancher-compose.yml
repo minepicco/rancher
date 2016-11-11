@@ -3,7 +3,7 @@ Graphite:
 .catalog:
     name: "Graphite"
     version: "latest"
-    description: "By default, basic auth is enabled for UI login. user/passwd=guest/guest For the system login, you can use root/root"
+    description: "By default, basic auth is enabled for UI login. user/passwd=guest/guest For the system login, you can use root/root. n\ Also udp receiver is disabled by default. Please login to console and edit /var/graphite/conf/carbon.conf, and modify ENABLE_UDP_LISTENER from False to True"
     questions:
         - variable: ui_port
           description: "Public port to access Graphite Web UI"
