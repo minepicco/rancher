@@ -6,8 +6,6 @@ Graphite:
     - ${picklereceiver}:2004
     - ${plainaggregator}:2023
     - ${pickleaggregator}:2024
-    - ${statsd}:8125/udp
-    - ${statsdadmin}:8126
   labels:
     io.rancher.container.pull_image: always
   tty: true
