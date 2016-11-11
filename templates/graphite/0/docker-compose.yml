@@ -4,8 +4,6 @@ Graphite:
     - ${plainreceiver}:2003
     - ${udpplainreceiver}:2003/udp
     - ${picklereceiver}:2004
-    - ${plainaggregator}:2023
-    - ${pickleaggregator}:2024
   labels:
     io.rancher.container.pull_image: always
   tty: true
