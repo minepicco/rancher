@@ -8,4 +8,4 @@
       label: "Http Port"
       required: true
       default: "3000"
-type: "int"
+      type: "int"
