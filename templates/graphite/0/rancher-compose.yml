@@ -2,7 +2,7 @@ Graphite:
   scale: 1
 .catalog:
     name: "Graphite"
-    version: "0.9.15"
+    version: "latest"
     description: "Graphite Server."
     questions:
         - variable: ui_port
