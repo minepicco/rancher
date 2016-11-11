@@ -1,2 +1,4 @@
-
-
+name: "Jupyter-all-spark-notebook"
+description: "jupyter all spark notebook"
+version: "latest"
+category: Monitoring
