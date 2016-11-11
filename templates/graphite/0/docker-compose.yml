@@ -1,0 +1,15 @@
+Graphite:
+  ports:
+    - ${ui_port}:80
+    - ${plainreceiver}:2003
+    - ${udpplainreceiver}:2003/udp
+    - ${picklereceiver}:2004
+    - ${plainaggregator}:2023
+    - ${pickleaggregator}:2024
+    - ${statsd}:8125/udp
+    - ${statsdadmin}:8126
+  labels:
+    io.rancher.container.pull_image: always
+  tty: true
+  image: minepicco/graphite
+  stdin_open: true
