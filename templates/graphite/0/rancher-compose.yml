@@ -3,7 +3,7 @@ Graphite:
 .catalog:
     name: "Graphite"
     version: "latest"
-    description: "Graphite Server."
+    description: "By default, basic auth is enabled for UI login. user/passwd=guest/guest For the system login, you can use root/root"
     questions:
         - variable: ui_port
           description: "Public port to access Graphite Web UI"
@@ -41,15 +41,4 @@ Graphite:
           required: true
           default: "2024"
           type: "int"
-        - variable: statsd
-          description: "statsd port (UDP)"
-          label: "statsd"
-          required: true
-          default: "8125"
-          type: "int"
-        - variable: statsdadmin
-          description: "statsd admin port (TCP)"
-          label: "statsd admin"
-          required: true
-          default: "8126"
-          type: "int"
+
