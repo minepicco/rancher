@@ -1,11 +1,10 @@
 .catalog:
   name: "jupyter"
   version: "latest"
-  description: |
-      jupyter all spark notebook
+  description: "jupyter all spark notebook"
   questions:
     - variable: http_port
-      description: "http port to access notebook
+      description: "http port to access notebook"
       label: "Http Port"
       required: true
       default: "8888"
