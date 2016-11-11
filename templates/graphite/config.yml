@@ -1,5 +1,5 @@
 name: "Graphite"
-description: "Graphite"
+description: "By default, basic auth is enabled for UI login. user/passwd=guest/guest For the system login, you can use root/root"
 version: "latest"
 category: "Metrics"
 maintainer: 
