@@ -1,0 +1,12 @@
+.catalog:
+  name: "Swagger"
+  version: "latest"
+  description: |
+      Swagger code generator to help your rest API environment.
+  questions:
+    - variable: http_port
+      description: "http port to access swagger code generator"
+      label: "Http Port"
+      required: true
+      default: "80"
+      type: "int"
