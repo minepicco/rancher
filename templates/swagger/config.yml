@@ -1,1 +1,4 @@
-
+name: "Swagger"
+description: "Swagger code-generator"
+version: "latest"
+category: APIgen
