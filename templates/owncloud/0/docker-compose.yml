@@ -1,4 +1,4 @@
 ownclowd:
     image: owncloud:8.1
     ports:
-        - ${http_port}:3000
+        - ${http_port}:80
