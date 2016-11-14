@@ -1,5 +1,5 @@
 grafana:
-    image: minepicco/grafana:4.0beta
+    image: minepicco/graphana:4.0beta
     ports:
         - ${http_port}:3000
     environment:
