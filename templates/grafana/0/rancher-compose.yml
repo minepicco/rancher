@@ -2,7 +2,8 @@
   name: "Grafana"
   version: "4.0beta"
   description: |
-      (Experimental) Grafana: Beautiful metric & analytic dashboards
+      (Experimental) Grafana: Beautiful metric & analytic dashboards |
+      Please use admin:admin for the default user:pass.
   questions:
     - variable: http_port
       description: "http port to access Grafana"
