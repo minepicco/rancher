@@ -1,8 +1,7 @@
 .catalog:
   name: "OwnCloud"
   version: "8.1"
-  description: |
-      OwnCloud is the BOX like file management system for on premise.
+  description: "OwnCloud is the BOX like file management system for on premise."
   questions:
     - variable: http_port
       description: "http port to access OwnCloud"
