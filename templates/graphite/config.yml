@@ -1,5 +1,5 @@
 name: "Graphite"
-description: "By default, basic auth is enabled for UI login. user/passwd=guest/guest For the system login, you can use root/root"
+description: "デフォルトでベーシック認証を有効にしてあります。gues:guest でログインしてください。UIに入った後のログイン画面のクレデンシャルは、 root:root です。"
 version: "latest"
 category: "Metrics"
 maintainer: 
