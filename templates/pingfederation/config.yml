@@ -1,5 +1,5 @@
 name: "PingFederate"
-description: "(This Image is NOT in use yet!!) please login to console first with root:Mimosa2008 and run /etc/pingfederate/bin/run.sh"
+description: "(This Image is NOT in use yet!!) 日本語テスト。このイメージはまだ利用できません！ please login to console first with root:Mimosa2008 and run /etc/pingfederate/bin/run.sh"
 version: "8.0.3"
 category: "Identiry Federation"
 maintainer: 
