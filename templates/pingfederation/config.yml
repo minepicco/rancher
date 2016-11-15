@@ -1,5 +1,5 @@
 name: "PingFederate"
-description: "please login to console first with root:Mimosa2008 and run /etc/pingfederate/bin/run.sh"
+description: "(This Image is NOT in use yet!!) please login to console first with root:Mimosa2008 and run /etc/pingfederate/bin/run.sh"
 version: "8.0.3"
 category: "Identiry Federation"
 maintainer: 
