@@ -1,0 +1,25 @@
+PingFederate:
+  scale: 1
+.catalog:
+    name: "PingFederate"
+    version: "8.0.3"
+    description: "Please access console first, and run /root/pingfederate/bin/run.sh then access http://<your docker host>:<ui port>"
+    questions:
+        - variable: ui_port
+          description: "UI Port to access PingDederate"
+          label: "nUI Port"
+          required: true
+          default: "9999"
+          type: "int"
+        - variable: adopter
+          description: "Adopter port for PingFederate"
+          label: "Adopter port"
+          required: true
+          default: "8080"
+          type: "int"
+        - variable: spport
+          description: "SP (service provider) port for PingFederate"
+          label: "SP port"
+          required: true
+          default: "9031"
+          type: "int"
