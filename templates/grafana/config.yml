@@ -1,4 +1,4 @@
 name: "Grafana4beta"
-description: "grafana 4.0 beta, with alerting feature"
+description: "grafana 4.0 beta, with alerting feature. Please use admin:admin for the default user:pass."
 version: "4.0beta"
 category: Monitoring
