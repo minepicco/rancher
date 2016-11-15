@@ -1,5 +1,5 @@
 name: "Splunk"
-description: "MNC private catalog"
+description: "ご存知Splunkです。ちょっとしたログファイルの解析のときなど、使い捨てでどうぞ。"
 version: "6.5"
 category: "Log Analytics"
 maintainer: 
