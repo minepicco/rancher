@@ -1,4 +1,4 @@
 name: "Grafana4beta"
-description: "grafana 4.0 betaにはalerting機能が追加されています。デフォルトのログインID、パスワードは、admin:admin です。"
+description: "grafana 4.0 betaにはalerting機能が追加されています。デフォルトのログインID、パスワードは、admin:admin です。Graphiteとセットで利用すると便利です。"
 version: "4.0beta"
 category: Monitoring
