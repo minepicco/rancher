@@ -1,1 +1,10 @@
-
+PingFederate:
+  ports:
+    - ${ui_port}:9999
+    - ${adopter}:8080
+    - ${sp_port}:9031
+  labels:
+    io.rancher.container.pull_image: always
+  tty: true
+  image: minepicco/pingfederate
+  stdin_open: true
