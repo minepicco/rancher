@@ -1,5 +1,5 @@
 name: "MySQLServer"
-description: "MySQL Sevver."
+description: "MySQL Sevverです。ちょっとデータベースが利用したいときなどにどうぞ。"
 version: "5.7"
 category: "SQLDBServer"
 maintainer: 
