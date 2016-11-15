@@ -17,7 +17,7 @@ PingFederate:
           required: true
           default: "8080"
           type: "int"
-        - variable: spport
+        - variable: sp_port
           description: "SP (service provider) port for PingFederate"
           label: "SP port"
           required: true
