@@ -2,3 +2,9 @@ jupyter:
     image: jupyter/all-spark-notebook:latest
     ports:
     - ${http_port}:8888
+    - ${spark_port}:4040
+    environment:
+        PASSWORD: ${password}
+        USE_HTTPS: ${use_https}
+        GRANT_SUDO: ${grant_sudo}
+        
