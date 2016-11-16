@@ -20,7 +20,7 @@
       label: "Password"
       required: false
       default: ""
-      type: "String"
+      type: string
     - variable: use_https
       description: "Configures Jupyter Notebook to accept encrypted HTTPS connections."
       label: "Use HTTPS"
