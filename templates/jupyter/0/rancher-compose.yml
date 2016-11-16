@@ -9,3 +9,33 @@
       required: true
       default: "8888"
       type: "int"
+    - variable: spark_port
+      description: "Opens the port for the Spark Monitoring and Instrumentation UI."
+      label: "Spark monitoring Port"
+      required: true
+      default: "4040"
+      type: "int"
+    - variable: password
+      description: "Configures Jupyter Notebook to require the given plain-text password. "
+      label: "Password"
+      required: false
+      default: ""
+      type: "String"
+    - variable: use_https
+      description: "Configures Jupyter Notebook to accept encrypted HTTPS connections."
+      label: "Use HTTPS"
+      default: no
+      required: true
+      type: enum
+      options:
+        - yes
+        - no
+    - variable: grant_sudo
+      description: "Gives the jovyan user passwordless sudo capability. Useful for installing OS packages."
+      label: "Grant sudo"
+      default: yes
+      required: true
+      type: enum
+      options:
+        - yes
+        - no
