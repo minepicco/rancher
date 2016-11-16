@@ -33,8 +33,7 @@
       description: "Gives the jovyan user passwordless sudo capability. Useful for installing OS packages."
       label: "Grant sudo"
       default: yes
-      required: true
+      required: false
       type: enum
       options:
         - yes
-        - no
