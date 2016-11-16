@@ -29,7 +29,6 @@
       type: enum
       options:
         - yes
-        - no
     - variable: grant_sudo
       description: "Gives the jovyan user passwordless sudo capability. Useful for installing OS packages."
       label: "Grant sudo"
