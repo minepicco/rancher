@@ -12,7 +12,7 @@
     - variable: spark_port
       description: "Opens the port for the Spark Monitoring and Instrumentation UI."
       label: "Spark monitoring Port"
-      required: true
+      required: false
       default: "4040"
       type: "int"
     - variable: password
