@@ -24,8 +24,8 @@
     - variable: use_https
       description: "Configures Jupyter Notebook to accept encrypted HTTPS connections."
       label: "Use HTTPS"
-      default: no
-      required: true
+      default: ""
+      required: false
       type: enum
       options:
         - yes
