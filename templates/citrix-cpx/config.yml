@@ -1,0 +1,4 @@
+name: "Citorix CPX Express"
+description: "Citrix CPX Expressのイメージです。詳細は次のURLより入手可能です。 https://www.microloadbalancer.com/"
+version: "11.1-48.10"
+category: LoadBalancer
