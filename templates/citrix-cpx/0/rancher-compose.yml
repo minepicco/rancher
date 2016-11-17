@@ -1,0 +1,30 @@
+.catalog:
+  name: "Citrix CPX"
+  version: "11.1-48.10"
+  description: 
+  questions:
+    - variable: http_port
+      description: "http port access"
+      label: "Http Port"
+      required: true
+      default: "80"
+      type: "int"
+    - variable: https_port
+      description: "https port access"
+      label: "Https Port"
+      required: true
+      default: "443"
+      type: "int"
+    - variable: snmp_port
+      description: "snmp port access"
+      label: "SNMP Port"
+      required: true
+      default: "161"
+      type: "int"
+    - variable: ssh_port
+      description: "ssh port access"
+      label: "SSH Port"
+      required: true
+      default: "22"
+      type: "int"
+citrix-cpx:
