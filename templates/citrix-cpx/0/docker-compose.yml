@@ -1,0 +1,7 @@
+citrix-cpx:
+    image: minepicco/cpx:11.1-48.10
+    ports:
+        - ${ssh_port}:22
+        - ${http_port}:80
+        - ${https_port}:443
+        - ${snmp_port}:161/udp
