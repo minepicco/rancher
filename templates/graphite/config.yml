@@ -1,6 +1,6 @@
 name: "Graphite"
 description: "デフォルトでベーシック認証を有効にしてあります。gues:guest でログインしてください。UIに入った後のログイン画面のクレデンシャルは、 root:root です。"
-version: "latest"
+version: "1.0"
 category: "Metrics"
 maintainer: 
 license: 
