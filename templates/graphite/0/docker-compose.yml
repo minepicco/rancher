@@ -7,5 +7,5 @@ Graphite:
   labels:
     io.rancher.container.pull_image: always
   tty: true
-  image: minepicco/graphite
+  image: minepicco/graphite:1.0
   stdin_open: true
