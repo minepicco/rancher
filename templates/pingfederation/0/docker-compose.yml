@@ -6,5 +6,5 @@ PingFederate:
   labels:
     io.rancher.container.pull_image: always
   tty: true
-  image: minepicco/pingfederate
+  image: minepicco/pingfederate:7.3
   stdin_open: true
