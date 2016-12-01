@@ -1,5 +1,5 @@
 name: "PingFederate"
-description: "(This Image is NOT in use yet!!) このイメージはまだ利用できません！ please login to console first with root:Mimosa2008 and run /etc/pingfederate/bin/run.sh"
+description: "PingIdentity 7.3 MNC"
 version: "7.3"
 category: "Identiry Federation"
 maintainer: 
