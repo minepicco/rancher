@@ -2,7 +2,7 @@ PingFederate:
   scale: 1
 .catalog:
     name: "PingFederate"
-    version: "8.0.3"
+    version: "7.3"
     description: "(This Image is not in use yet!!) Please access console first, and run /root/pingfederate/bin/run.sh then access http://<your docker host>:<ui port>"
     questions:
         - variable: ui_port
