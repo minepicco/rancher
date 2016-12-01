@@ -8,3 +8,4 @@ PingFederate:
   tty: true
   image: minepicco/pingfederate:7.3
   stdin_open: true
+  command: "sh /root/pingfederate-7.3.0/pingfederate/bin/run.sh"
