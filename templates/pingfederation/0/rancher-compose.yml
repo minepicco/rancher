@@ -12,10 +12,10 @@ PingFederate:
           default: "9999"
           type: "int"
         - variable: adopter
-          description: "Adopter port for PingFederate"
-          label: "Adopter port"
+          description: "JMX remote monitoring port for PingFederate"
+          label: "JMX port"
           required: true
-          default: "8080"
+          default: "1099"
           type: "int"
         - variable: sp_port
           description: "SP (service provider) port for PingFederate"
