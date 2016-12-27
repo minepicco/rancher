@@ -1,7 +1,7 @@
 PingFederate:
   ports:
     - ${ui_port}:9999
-    - ${adopter}:8080
+    - ${adopter}:1099
     - ${sp_port}:9031
   labels:
     io.rancher.container.pull_image: always
