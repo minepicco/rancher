@@ -7,7 +7,7 @@ PingFederate:
     questions:
         - variable: ui_port
           description: "UI Port to access PingDederate"
-          label: "nUI Port"
+          label: "Web UI Port"
           required: true
           default: "9999"
           type: "int"
@@ -18,8 +18,8 @@ PingFederate:
           default: "1099"
           type: "int"
         - variable: sp_port
-          description: "SP (service provider) port for PingFederate"
-          label: "SP port"
+          description: "IdP (Identity provider) port for PingFederate"
+          label: "IdP port"
           required: true
           default: "9031"
           type: "int"
