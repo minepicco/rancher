@@ -1,0 +1,43 @@
+.catalog:
+  name: "Splunk"
+  version: "6.5.2"
+  description: "Test"
+  questions:
+    - variable: public_port
+      description: "Public port to access the Splunk UI"
+      label: "UI Access port"
+      required: true
+      default: "8000"
+      type: "int"
+    - variable: http_event_controller
+      description: "HTTP Event Collector port (default: 8088)"
+      label: "HTTP Event Collector"
+      required: true
+      default: "8088"
+      type: "int"
+    - variable: splunk_services
+      description: "Splunk service ports (default: 8089)"
+      label: "Splunk Services"
+      required: true
+      default: "8089"
+      type: "int"
+    - variable: application_key_value_store
+      description: "Application Key Value Store ports (default: 8191)"
+      label: "Application Key Value Store"
+      required: true
+      default: "8191"
+      type: "int"
+    - variable: splunk_receiving_port
+      description: "Splunk receiving Port (not used by default) typically used by the Splunk Universal Forwarder (default: 9997)"
+      label: "Splunk receiving Port "
+      required: true
+      default: "9997"
+      type: "int"
+    - variable: network_input
+      description: "Network Input (not used by default) typically used to collect syslog TCP data (default: 1514)"
+      label: "Network Input"
+      required: true
+      default: "1514"
+      type: "int"
+Splunk:
+  scale: 1
