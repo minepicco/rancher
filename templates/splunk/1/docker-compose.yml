@@ -16,7 +16,7 @@ Splunk:
     SPLUNK_HOME: /opt/splunk
     SPLUNK_PRODUCT: splunk
     PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-    SPLUNK_VERSION: 6.5.0
+    SPLUNK_VERSION: 6.5.2
     SPLUNK_BUILD: 59c8927def0f
     LANG: ja_JP.utf8
     SPLUNK_USER: root
