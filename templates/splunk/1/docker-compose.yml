@@ -1,0 +1,37 @@
+Splunk:
+  ports:
+  - ${public_port}:8000/tcp
+  - ${network_input}:1514/tcp
+  - ${http_event_controller}:8088/tcp
+  - ${splunk_services}:8089/tcp
+  - ${application_key_value_store}:8191/tcp
+  - ${splunk_receiving_port}:9997/tcp
+  environment:
+    SPLUNK_BACKUP_DEFAULT_ETC: /var/opt/splunk
+    SPLUNK_START_ARGS: --accept-license
+    SPLUNK_FILENAME: splunk-6.5.0-59c8927def0f-Linux-x86_64.tgz
+    DOCKER_VERSION: 1.9.0
+    SPLUNK_BACKUP_APP: /var/opt/splunk/etc/apps
+    SPLUNK_GROUP: splunk
+    SPLUNK_HOME: /opt/splunk
+    SPLUNK_PRODUCT: splunk
+    PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    SPLUNK_VERSION: 6.5.0
+    SPLUNK_BUILD: 59c8927def0f
+    LANG: ja_JP.utf8
+    SPLUNK_USER: root
+  log_driver: json-file
+  labels:
+    io.rancher.container.pull_image: always
+    io.rancher.container.start_once: 'true'
+    io.rancher.container.volume_cleanup_strategy: none
+  entrypoint:
+  - /sbin/entrypoint.sh
+  command:
+  - start-service
+  image: splunk/splunk:6.5.2
+  volumes:
+  - /opt/splunk/etc
+  - /opt/splunk/var
+  working_dir: /opt/splunk
+  net: bridge
