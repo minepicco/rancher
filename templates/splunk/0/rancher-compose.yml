@@ -1,6 +1,6 @@
 .catalog:
   name: "Splunk"
-  version: "6.5"
+  version: "6.5.0"
   description: "Test"
   questions:
     - variable: public_port
