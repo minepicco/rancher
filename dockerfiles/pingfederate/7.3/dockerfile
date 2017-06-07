@@ -2,6 +2,6 @@ from centos:6
 
 RUN yum -y update && yum install -y java-1.8.0-openjdk-devel
 COPY pingfederate-7.3.0/ /root/
-CMD ["sh /root/pingfederate-7.3.0/pingfederate/bin/run.sh"]
+ENTRYPOINT ["sh", "-c", "/root/pingfederate/bin/run.sh", "BACKGROUND"]
 
 EXPOSE 9999 9031
