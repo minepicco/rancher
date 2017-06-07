@@ -1,0 +1,7 @@
+from centos:6
+
+RUN yum update && yum install java-1.7.0-openjdk-devel
+COPY /tmp/pingfederate/pingfederate-7.3.0 /root/
+CMD ["sh /root/pingfederate-7.3.0/pingfederate/bin/run.sh"]
+
+EXPOSE 9999,9031
