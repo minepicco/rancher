@@ -41,7 +41,7 @@
       type: "int"
     - variable: network_input_udp
       description: "Network Input (not used by default) typically used to collect syslog UDP data (default: 1514)"
-      label: "Network Input"
+      label: "Network Input UDP"
       required: true
       default: "1514"
 type: "int"
