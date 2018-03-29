@@ -2,6 +2,7 @@ Splunk:
   ports:
   - ${public_port}:8000/tcp
   - ${network_input}:1514/tcp
+  - ${network_input_udp}:1514/udp
   - ${http_event_controller}:8088/tcp
   - ${splunk_services}:8089/tcp
   - ${application_key_value_store}:8191/tcp
