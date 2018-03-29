@@ -44,6 +44,6 @@
       label: "Network Input UDP"
       required: true
       default: "1514"
-type: "int"
+      type: "int"
 Splunk:
   scale: 1
